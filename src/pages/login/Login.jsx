@@ -28,10 +28,10 @@ const Login = () => {
   };
 
   return (
-    <div className='container col-4 mt-5 mb-5'>
+    <div className='container col-12 col-md-8 col-lg-6 mt-5 mb-5'>
       <h2 className='mb-5'>Iniciar sesión</h2>
       {error && <div className="alert alert-danger">{error}</div>}
-      <form onSubmit={onSubmit}>
+      <form className='col-10 mx-auto' onSubmit={onSubmit}>
         <div className="mb-3">
           <label htmlFor="exampleInputEmail1" className="form-label">Correo electrónico</label>
           <input
