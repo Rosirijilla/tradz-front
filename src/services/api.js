@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 // Definir la URL base de la API según el entorno
-const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:5001/api';
+const API_URL = import.meta.env.VITE_API_URL || 'https://tradz.onrender.com/api';
 
 // Configuración de axios
 const api = axios.create({
