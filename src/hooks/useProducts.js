@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import axios from "axios";
+import api from "../services/api";
 
 const useProducts = () => {
   const [products, setProducts] = useState([]);
@@ -8,7 +8,7 @@ const useProducts = () => {
 
   const fetchProducts = async () => {
     try {
-      const response = await axios.get('http://localhost:5001/api/productos');
+      const response = await api.get('/productos');
       console.log("Respuesta de la API:", response.data);
       setProducts(Array.isArray(response.data.data) ? response.data.data : []);
       setLoading(false);
