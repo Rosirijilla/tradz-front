@@ -94,6 +94,11 @@
 }
 
 @media screen and (max-width: 768px) {
+  .backgorund-principal {
+    background-size: 100% 100%;
+    background-position: center top;
+  }
+
   .order-background {
     flex-direction: column;
     padding: 1rem;
@@ -108,6 +113,10 @@
 
   .text-background h1 {
     font-size: 2.5rem;
+  }
+
+  .col {
+    gap: 1rem;
   }
 
   .about {
