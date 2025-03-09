@@ -20,7 +20,7 @@ const PostDetails = () => {
     console.log("Token actual:", token);
     console.log("Perfil actual:", profile);
     console.log("Producto a agregar:", product);
-    handleAddToCart({ productId: product.id_producto, quantity: 1 });
+    handleAddToCart({ id_producto: product.id, quantity: 1 });
   };
 
   useEffect(() => {
