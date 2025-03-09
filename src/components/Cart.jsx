@@ -3,7 +3,7 @@ import { useContext } from "react";
 import { CartContext } from "../contexts/CartContext";
 import { UserContext } from "../contexts/UserContext";
 import data from "../data/db.json";
-import "../styles/cart.css";
+import "../styles/Cart.css";
 import PurchaseSummary from "./PurchaseSummary";
 import { cartService } from '../services/api';
 
