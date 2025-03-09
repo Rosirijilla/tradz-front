@@ -1,0 +1,33 @@
+/* Estado normal del botón */
+.page-link {
+  color: #FF5722;
+  background-color: transparent;
+  border-color: #dee2e6;
+}
+
+/* Estado hover */
+.page-link:hover {
+  color: #fff;
+  background-color: #FF5722;
+  border-color: #FF5722;
+}
+
+/* Estado activo (página actual) */
+.page-item.active .page-link {
+  background-color: #FF5722;
+  border-color: #FF5722;
+  color: #fff;
+}
+
+/* Estado deshabilitado */
+.page-item.disabled .page-link {
+  color: #6c757d;
+  pointer-events: none;
+  background-color: #fff;
+  border-color: #dee2e6;
+}
+
+/* Quitar el outline azul al hacer focus */
+.page-link:focus {
+  box-shadow: 0 0 0 0.25rem rgba(255, 87, 34, 0.25);
+}

@@ -1,0 +1,110 @@
+{
+    "users": [
+        {
+            "id": 1,
+            "name": "Juan Perez",
+            "email": "juan.perez@example.com",
+            "adress": "Calle Falsa 123, Ciudad",
+            "phone": "1234567890",
+            "img": "https://picsum.photos/300/200?random=13"
+        }
+    ],
+    "products": [
+        {
+            "id": 1,
+            "name": "Laptop Gamer",
+            "description": "Laptop con procesador i7 y tarjeta gráfica dedicada",
+            "price": 1500,
+            "stock": 10,
+            "img": "https://picsum.photos/300/200?random=1"
+        },
+        {
+            "id": 2,
+            "name": "Teclado Mecánico",
+            "description": "Teclado RGB con switches rojos",
+            "price": 100,
+            "stock": 25,
+            "img": "https://picsum.photos/300/200?random=2"
+        },
+        {
+            "id": 3,
+            "name": "Mouse Inalámbrico",
+            "description": "Mouse ergonómico con sensor óptico avanzado",
+            "price": 50,
+            "stock": 30,
+            "img": "https://picsum.photos/300/200?random=3"
+        },
+        {
+            "id": 4,
+            "name": "Monitor 27 pulgadas",
+            "description": "Monitor Full HD con 144Hz de refresco",
+            "price": 300,
+            "stock": 15,
+            "img": "https://picsum.photos/300/200?random=4"
+        },
+        {
+            "id": 5,
+            "name": "Silla Gamer",
+            "description": "Silla ergonómica con soporte lumbar",
+            "price": 200,
+            "stock": 20,
+            "img": "https://picsum.photos/300/200?random=5"
+        },
+        {
+            "id": 6,
+            "name": "Auriculares Bluetooth",
+            "description": "Auriculares con cancelación de ruido y micrófono",
+            "price": 120,
+            "stock": 40,
+            "img": "https://picsum.photos/300/200?random=6"
+        },
+        {
+            "id": 7,
+            "name": "Disco SSD 1TB",
+            "description": "Unidad de estado sólido NVMe de alta velocidad",
+            "price": 180,
+            "stock": 35,
+            "img": "https://picsum.photos/300/200?random=7"
+        },
+        {
+            "id": 8,
+            "name": "Procesador Ryzen 7",
+            "description": "Procesador de alto rendimiento para gaming y trabajo",
+            "price": 350,
+            "stock": 12,
+            "img": "https://picsum.photos/300/200?random=8"
+        },
+        {
+            "id": 9,
+            "name": "Tarjeta Gráfica RTX 3060",
+            "description": "Tarjeta gráfica con 12GB de VRAM GDDR6",
+            "price": 500,
+            "stock": 8,
+            "img": "https://picsum.photos/300/200?random=9"
+        },
+        {
+            "id": 10,
+            "name": "Fuente de Poder 750W",
+            "description": "Fuente de poder certificada 80 Plus Gold",
+            "price": 110,
+            "stock": 22,
+            "img": "https://picsum.photos/300/200?random=10"
+        },
+        {
+            "id": 11,
+            "name": "Gabinete ATX",
+            "description": "Gabinete con vidrio templado y RGB",
+            "price": 90,
+            "stock": 18,
+            "img": "https://picsum.photos/300/200?random=11"
+        },
+        {
+            "id": 12,
+            "name": "Memoria RAM 16GB",
+            "description": "Módulo de memoria DDR4 de alta velocidad",
+            "price": 75,
+            "stock": 50,
+            "img": "https://picsum.photos/300/200?random=12"
+        }
+    ]
+}

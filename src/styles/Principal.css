@@ -1,0 +1,151 @@
+/*Div para organizar la imagen de fondo*/
+.backgorund-principal{
+    background-image: url(https://files.catbox.moe/41461d.webp); /*Imagen de fondo*/
+    background-size: cover; /*Tamaño de la imagen*/
+    background-position: center; /*Posición de la imagen*/
+    background-repeat: no-repeat; /*No se repite la imagen*/
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+/*Div para organizar el contenido*/
+.order-background{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+}
+
+/*Div para organizar el texto*/
+.text-background{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 50%;
+    color: white;
+}
+
+.text-background h1{
+    font-size: 4rem;
+}
+
+.text-background p{
+    font-size: 1.2rem;
+}
+
+.btn-principal{
+    background: #004D40;
+    color: #FFFFFA;
+    border-radius: 5px;
+    padding: 10px 0;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    width: 15rem;
+}
+
+.btn-principal:hover{
+    background: #FF5722;
+}
+
+.about{
+    background: #E0E0E0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 4rem 2rem;
+}
+
+.about-divs{
+    background: #FFFFFA;
+    height: 24rem;
+    width: 28rem;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about-divs:hover{
+    background:  #fff2ef;
+}
+
+.about-divs h2{
+    color: #030105;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.icon-about{
+    color: #004d40;
+    font-size: 2rem;
+    display: block;
+    margin-top: 2rem;
+}
+
+.about-text{
+    padding: 1rem 2rem;
+}
+
+@media screen and (max-width: 768px) {
+  .order-background {
+    flex-direction: column;
+    padding: 1rem;
+  }
+
+  .text-background {
+    width: 100%;
+    text-align: center;
+    height: auto;
+    margin-bottom: 2rem;
+  }
+
+  .text-background h1 {
+    font-size: 2.5rem;
+  }
+
+  .about {
+    height: auto;
+    flex-direction: column;
+    padding: 2rem 1rem;
+    gap: 1rem;
+  }
+
+  .about-divs {
+    width: 90%;
+    height: auto;
+    padding: 1rem;
+  }
+
+  .about-divs h2 {
+    font-size: 1.5rem;
+    margin: 1rem 0;
+  }
+
+  .about-text {
+    padding: 0.5rem 1rem;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .text-background h1 {
+    font-size: 2rem;
+  }
+
+  .text-background p {
+    font-size: 1rem;
+  }
+
+  .btn-principal {
+    width: 12rem;
+    font-size: 1rem;
+  }
+}
+

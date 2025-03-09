@@ -1,0 +1,12 @@
+.card{
+    border: none !important;
+    background-color: #E0E0E0 !important;
+    text-align: center;
+}
+
+.lexend_font {
+    font-family: "Lexend", serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}

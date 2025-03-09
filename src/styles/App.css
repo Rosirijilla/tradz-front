@@ -1,0 +1,29 @@
+/*Contenedor de toda la página*/
+.body-all{
+  background: #FFFFFA; /*Color de fondo de toda la página*/
+}
+
+/*Todos los botones de la página*/
+.btn{
+  background-color: #004D40 !important;
+  border-color: #E0E0E0 !important;
+}
+
+/* .btn-2{
+  background-color: #ffffff !important;
+  border-color: #24211F !important;
+  color: #24211F !important;
+} */
+
+/*Hover de todos los botones de la página*/
+.btn:hover{
+  background-color: #FF5722 !important;
+  border-color: #E0E0E0 !important;
+}
+.footer{
+  background-color: #E0E0E0!important;
+}
+
+.navbar-brand, .nav-link{
+  color: #030105 !important;
+}

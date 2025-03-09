@@ -1,0 +1,38 @@
+/*Div Navbar*/
+.custom-navbar {
+  background-color: #e0e0e0 !important; /*Color del fondo del Navbar*/
+  box-shadow: 0 2px 4px #0000001a; /*Agrega una sombra sutil */
+}
+
+/*Color del texto del Navbar*/
+.custom-navbar .navbar-nav .nav-link {
+  color: #030105 !important; /* Negro azulado para los textos */
+  font-weight: bolder; /*Texto en negrita*/
+}
+
+.custom-navbar .navbar-nav .nav-link:hover {
+  color: #ff5722 !important; /*Cambio texto a naranjo al pasar el mouse*/
+}
+
+/*Logo*/
+.logo-navbar {
+  width: 100px; /*Tamaño del logo*/
+}
+
+/*Botón hamburguesa*/
+.navbar-toggler {
+  border: 3px solid #ff5722 !important; /*Borde del boton hamburguesa*/
+}
+
+/*Botón cerrar sesion*/
+.btn-cerrar-sesion {
+  background: #004d40;
+  color: #fffffa;
+  border: none;
+  border-radius: 5px;
+  padding: 0.5rem 1rem;
+}
+
+/* Media query para computador */
+@media (min-width: 992px) {
+}

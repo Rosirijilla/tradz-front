@@ -1,0 +1,75 @@
+.img-perfil{
+  width: 15rem;
+  height: 15rem;
+  border-radius: 50%;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.btn-actions{
+  background-color: #004D40;
+  color: #fff;
+  width: 15rem;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn-actions:hover{
+  background-color: #FF5722;
+}
+
+.form-check-input{
+  border-color: #004D40;
+  box-shadow: 0 0 0 0.25rem rgba(0, 77, 64, 0.25);
+}
+
+.form-check-input:checked{
+  background-color: #FF5722 !important;
+  border-color: #004D40;
+  box-shadow: 0 0 0 0.25rem rgba(255, 87, 34, 0.25);
+}
+.form-check-input:focus{
+  border-color: #004D40;
+  box-shadow: 0 0 0 0.25rem rgba(0, 77, 64, 0.25);
+}
+
+/* Media queries para dispositivos móviles */
+@media screen and (max-width: 768px) {
+  .img-perfil {
+    width: 12rem;
+    height: 12rem;
+  }
+
+  .btn-actions {
+    width: 12rem;
+  }
+
+  /* Ajustar el layout principal del Profile */
+  .profile-container {
+    flex-direction: column;
+    padding: 1rem;
+  }
+
+  /* Ajustar el tamaño de los textos */
+  h1 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+  }
+
+  h3 {
+    font-size: 1.4rem;
+  }
+
+  /* Ajustar espaciado */
+  .user-info-container {
+    margin: 1rem 0;
+  }
+
+  /* Ajustar botones */
+  .actions-container {
+    width: 100%;
+    align-items: center;
+  }
+}
+
